@@ -1,13 +1,58 @@
 \subsection*{Project 1}
-In project first, that description was presented above, one of source of the problem is planning part. Let's try using the APIM make some improvements to this process.  First of all there need to do the Launch phase. During this phase we have to convince the management that the improvement needs to be done. In this case we should collect some historical data and present them to the management and decision-makers. Data should contain information that planning is not going very well. One of the most valuable measurements in this case is how much time team spend on feature work. In this measurement we can clearly see that in some sprints there is a little amount of time spend on feature work and in the next sprints there are event overtimes. It can mean that some tasks was late in system and team have no job to do and then team has to handle the late tasks and current to do. Because this is a big project we need to create an improvement process team. \\
+In project first, that description was presented above, one of source of the problem is planning part. Let's try using the APIM make some improvements to this process.  First of all we should start from Launch phase. During this phase we have to convince the management that the improvement needs to be done. In this case we should collect some historical data and present them to the management and decision-makers. In our case data should contain information that planning is not going very well. One of the most valuable measurements in this scenario is how much time team spend on feature work. In this measurement we can clearly see that in some sprints there is a little amount of time spend on feature work and in the next sprints there are event overtimes. 
+This leads us to suppose that some tasks was late in system, so team have no job to do and then team has to handle the late and current tasks at the same time. Because this is a big project we need to create an improvement process team to coordinate whole improvement process. During the Lunch phase we need also test if our improvement team works well. To do this we can go to the next phase where  improvement team should done action plan - this will be their first task.
 
-\subsubsection*{Action Plan}
-There is shown the action plan\\
+ %To sum up our improvement process is about making improvement in planning part in development cycle. We want to monitor and schedule tasks flow in agile project to equalize the team load. The problem occur because of Product Owners schedule tasks for whole release using excel and because of that they miss the whole picture. Work for teams is unevenly distributed over project life cycle. The new monitoring and schedule method is needed.
+
+%\subsubsection*{Action Plan}
+During Planning in Pre-Maturity phase we need to develop brief action plan. During this phase we need to focus on main goal ans strategy, timeline with milestones, measures and risk. We need to also describe Completion Criteria. The proposed action plan for process improvement is presented below: \\
 \textbf{Title:}  Monitoring and schedule task flow in agile project.\\
 \textbf{Problem definition:} Product Owners schedule tasks for whole release using excel and because of that they miss the whole picture. Work for teams is unevenly distributed over project life cycle. The new monitoring and schedule method is needed.\\
+\textbf{Goal:}  We want to monitor and schedule tasks flow in agile project to equalize the team load.\\
 \textbf{Team:} Project improvement teams is needed. It should contain about 4 to 5 people.\\
-\textbf{Piloting Strategy:} We need to take one development team to test the proposed solution. After each three sprints of development, the schedule algorithm will change until it's reach completion criteria. After that new tool will be spreading to next teams.\\
+\textbf{People involved:} Development team and Product Owner.\\
+\textbf{Strategy:} We need to take one development team to test the proposed solution. After each three sprints of development, the schedule algorithm will change until it's reach completion criteria. After that new tool will be spreading to next teams.\\
 \textbf{Desired Results:} The main expected result is equally distributed work during project life cycle. One of the key aspect in that scenario is also decrease overtime.\\
-\textbf{Issues and Risk:} Finding the right scheduling algorithm parameters in changing environment is one of the biggest risk that can increase budget and improvement time. The next aspect is that Product Owners can use the  \\
-\textbf{Timeline:} \\
-\textbf{Deliverables:} 
+\textbf{Risk:} Finding the right scheduling algorithm parameters in changing environment is one of the biggest risk that can increase budget and improvement time. The next aspect is that Product Owners can use the output of scheduling tool without second thoughts about that. When we working in agile this is very undesirable strategy, because we want to follow the Manifesto rule: \textit{Individuals and interactions over processes and tools} \cite{manifesto}. We can decrease this risk by giving on the output two or more proposed schedule solution and let PO decide which one is the best based on intuition and people issue. \\
+%\textbf{Timeline and milestones:} \textit{tu nie rozumiem dokładnie o jaki timeline chodzi}\\
+\textbf{Completion Criteria:} Decrease overtime to x level. Equalize  time spends on feature work to y level.
+
+Action plan that is presented above provide the 
+
+The next phase is Maturity phase. During this part we making improvements in cycle. Each cycle contains following steps: 
+\begin{inparaenum}
+\item awareness,
+\item triange,
+\item resolution,
+\item training,
+\item deployment,
+\item trial.
+\end{inparaenum}
+Steps provided above are repeated until organization improvements goals are reached and \textit{an organization is ready for formal assessment} \cite{jacobs_short}. \textit{Awareness} phase is about setting small goals that should be reached after iteration. In this phase we should also answer the question where we are now and what are our main weaknesses now \cite{jacobs} \cite{jacobs_short}. Then we have \textit{Triage} phase and during this phase we need to prioritize out improvement tasks and set them a value, to know which tasks should be done first to reach the goal quickly. The prioritize should be done based on business goals, project goals and process goals. Next step is the \textit{Resolution} and this is about developing process. During this phrase is created action plan for each task that involved people precisely know what is this improvement task about, why and how should be done. After the action plans are ready we need to train involved people how to use it. Fifth step is running the improvement in real life in the pilot group of involved people or other. There should be pilot mentor who take care about action plan and implementation. After \textit{Deployment} part is over we need to collect data and analyze current situation to the next improvements. \cite{jacobs} \cite{jacobs_short}.
+
+First iteration of Maturity phase can in our project improvement process can looks like this:
+
+\begin{enumerate}
+\item[Awareness] Basic on our current situation we can say that there is some problem with planning part, but we don't have enough measurements to deeply describe the problem. 
+\item[Triage] We have to move  tasks about collect data to the top of the list, because we need to deeply understand the scale of the problem.
+\item[Resolution] We need to describe the proposed measurements by making an action plan to each.
+\item[Training] We need to train involved people how to use our proposed metrics based on action plan.
+\item[Deployment] During this phase piloting team and Product Owner collect the measurement based on action plans. Mentor take care if everything goes according to plan.
+\item[Trial] Collect data if measurement system works, if its need any improvements and where are we know.
+\end{enumerate}
+
+Assuming that first Maturity cycle reached the Completion Criteria that measurement system works well and provide valuable informations, we can run the next iteration. Based on historical data that we collect during project life cycle and our last iteration, we want to reach next step in our improvement process - give the Product Owner new tool to monitor and schedule tasks in system. Next cycle can looks like below:
+
+\begin{enumerate}
+\item[Awareness] Based on measurements we know that there is some sprints that team don't spent time on features and from another hand there are also sprints where people works overtime. The goal of this iteration is to provide feature work in each sprint on given level. We want to change the scheduling algorithm parameters and customize it.
+\item[Triage] To reach the iteration goal, we need to move actions that are about setting the right parameters in new tool and implement it into system.
+\item[Resolution] We need to set the initial parameters to the tool and write action plan how we want to use them. We should also prepare action plan from the Product Owner point of view.
+\item[Training] We have to train the Product Owner how to use the new tool. 
+\item[Deployment] Product Owner should use the new tool to schedule tasks for one team. Mentor should provide the highest quality information about action plan and instruction of usage. 
+\item[Trial] Collect all data and think about how proper parameters are.
+\end{enumerate}
+In the next cycle we should focus on setting the proper parameters to the scheduling algorithm in proposed tool. Those iteration should be run for one pilot team until we reach the satisfactory results that meet Completion Criteria. After that goal is reached we can in the next cycle spread tool to another teams. 
+
+At the end of APMI there is Post-Maturity phase. In this phase organization is ready for an formal audit. All cycle phase should be finished at this moment. During \textit{Asses} phase we need tho analyze strength and weakens. In this case audit can be made by inside organization team. They need to compare measurements from the begging of the project the end of it. One of the most important thing that should be done is a survey measuring employee satisfaction.
+
+The last step of Post-Maturity phase is to \textit{Improve}. Based on knowlegde that we gain during this project we need to improve measurements, make changes in budget and update action plan. 
